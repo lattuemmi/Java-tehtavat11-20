@@ -10,4 +10,22 @@ package org.example;
 //- Todista Mainissa, että luokka todella on singleton.
 
 public class Tehtava15 {
+    private static Tehtava15 instance;
+    private String kappaleNimi;
+    private Tehtava15(){};
+    public static Tehtava15 getInstance(){
+        if (instance == null) {
+            instance = new Tehtava15();
+        }
+        return instance;
+    }
+
+    public void asetaKappale(String kappaleNimi){
+        this.kappaleNimi = kappaleNimi;
+    }
+
+    public void soitaKappale(){
+        System.out.println("Soitetaan kappale: " + kappaleNimi);
+        System.out.println(" ");
+    }
 }
