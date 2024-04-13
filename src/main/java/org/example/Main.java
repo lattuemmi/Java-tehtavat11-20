@@ -2,6 +2,9 @@ package org.example;
 
 import java.util.Random;
 import java.io.File;
+
+import org.example.tehtava14.Pankki;
+import org.example.tehtava14.Pankkitili;
 public class Main {
     public static void main(String[] args) {
 
@@ -44,6 +47,19 @@ public class Main {
 
         //Tehtävä 14
 
+        Pankki pankki = new Pankki();
+
+        Pankkitili tili1 = new Pankkitili("FI123456789", "Post Malone", 5000);
+        pankki.lisaaTili(tili1);
+
+        tili1.Talleta(500);
+        tili1.tulostaSaldo();
+
+        tili1.Nosta(200);
+        tili1.tulostaSaldo();
+
+        pankki.tulostaTilinTiedot("Fi123456789");
+
         Tehtavaerotin.tulostaErotin();
 
         //Tehtävä15
@@ -79,6 +95,16 @@ public class Main {
 
         //Tehtävä17
 
-        
+        String alkuperainen = "Gotta have high high hopes";
+        String kaannetty = Tehtava17.kaannaMerkkijono(alkuperainen);
+        System.out.println("Alkuperäinen: " + alkuperainen);
+        System.out.println("Käännetty: " + kaannetty);
+
+        Tehtavaerotin.tulostaErotin();
+
+        //Tehtävä18
+
+
+
     }
 }

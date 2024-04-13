@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="542a41f0-8ffa-4c00-96bb-e15b6348c33b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Tehtavaerotin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tehtava14/Pankki.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tehtava14/Pankkitili.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Tehtava13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Tehtava13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Tehtava15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Tehtava15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Tehtava16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Tehtava16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Tehtava17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Tehtava17.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
